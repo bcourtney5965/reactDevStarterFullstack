@@ -1,18 +1,18 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router'
 
-class View1 extends Component {
+class IndexRoute extends Component {
   constructor() {
     super()
   }
   testLogger() {
-    console.log("hello from View1");
+    console.log("hello from IndexRoute");
   }
   render() {
     return (
-      <div onClick={this.testLogger}>View1</div>
+      <div onClick={this.testLogger}>IndexRoute</div>
     );
   }
 }
 
-export default View1
+export default IndexRoute
