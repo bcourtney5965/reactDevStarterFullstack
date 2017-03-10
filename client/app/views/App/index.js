@@ -11,16 +11,15 @@ class App extends Component {
   render() {
     return (
       <div>
+        <h1>Navigation</h1>
         <ul role="nav">
           <li><Link to="/view1">view1</Link></li>
           <li><Link to="/view2">view2</Link></li>
         </ul>
-        <div id="container">
 
-          {/* add this */}
-          {this.props.children}
+        {/* add this */}
+        {this.props.children}
 
-        </div>
       </div>
     )
   }

@@ -10,25 +10,7 @@ class View1 extends Component {
   }
   render() {
     return (
-      <table onClick={this.testLogger} id="projects-summary">
-      {/*style={width:100%}*/}
-        <thead>
-          <tr>
-            <th>Name</th> 
-            <th>Age</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>Bob</td> 
-            <td>50</td>
-          </tr>
-          <tr>
-            <td>John</td> 
-            <td>94</td>
-          </tr>
-        </tbody>
-      </table>
+      <div onClick={this.testLogger}>View1</div>
     );
   }
 }
