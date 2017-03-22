@@ -10,7 +10,24 @@ class View1 extends Component {
   }
   render() {
     return (
-      <div onClick={this.testLogger}>View1</div>
+      <table>
+        <thead>
+          <tr>
+            <th>Firstname</th>
+            <th>Lastname</th> 
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Jill</td>
+            <td>Smith</td> 
+          </tr>
+          <tr>
+            <td>Eve</td>
+            <td>Jackson</td> 
+          </tr>
+        </tbody>
+      </table>
     );
   }
 }
